@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,11 +22,9 @@
 		68CDDAEC24D1F4180015A754 /* Daily_Affirmations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68CDDAEA24D1F4180015A754 /* Daily_Affirmations.xcdatamodeld */; };
 		68CDDAEE24D1F41C0015A754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CDDAED24D1F41C0015A754 /* Assets.xcassets */; };
 		68CDDAF124D1F41C0015A754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CDDAEF24D1F41C0015A754 /* LaunchScreen.storyboard */; };
-		B17D0C3FC58766CAC69468AF /* Pods_Daily_Affirmations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7623C7071CFAE76E2ED076AA /* Pods_Daily_Affirmations.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17AD4C87E69FF98A5A85F2D2 /* Pods-Daily Affirmations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily Affirmations.debug.xcconfig"; path = "Target Support Files/Pods-Daily Affirmations/Pods-Daily Affirmations.debug.xcconfig"; sourceTree = "<group>"; };
 		68B97B1C24D30A1000C1E933 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		68B97B2424D30EA700C1E933 /* AffirmationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationManager.swift; sourceTree = "<group>"; };
 		68B97B2724D3129300C1E933 /* AffirmationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationModel.swift; sourceTree = "<group>"; };
@@ -44,8 +42,6 @@
 		68CDDAED24D1F41C0015A754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68CDDAF024D1F41C0015A754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68CDDAF224D1F41C0015A754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7623C7071CFAE76E2ED076AA /* Pods_Daily_Affirmations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daily_Affirmations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9EA9C9A103BBB49150DAFA3 /* Pods-Daily Affirmations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daily Affirmations.release.xcconfig"; path = "Target Support Files/Pods-Daily Affirmations/Pods-Daily Affirmations.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,21 +49,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B17D0C3FC58766CAC69468AF /* Pods_Daily_Affirmations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		601F527953C558F5D422A911 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7623C7071CFAE76E2ED076AA /* Pods_Daily_Affirmations.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		68B97B1624D2FEBF00C1E933 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,8 +97,6 @@
 			children = (
 				68CDDAE024D1F4180015A754 /* Daily Affirmations */,
 				68CDDADF24D1F4180015A754 /* Products */,
-				704ED82177BD7D8E304C5418 /* Pods */,
-				601F527953C558F5D422A911 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,15 +126,6 @@
 			path = "Daily Affirmations";
 			sourceTree = "<group>";
 		};
-		704ED82177BD7D8E304C5418 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				17AD4C87E69FF98A5A85F2D2 /* Pods-Daily Affirmations.debug.xcconfig */,
-				A9EA9C9A103BBB49150DAFA3 /* Pods-Daily Affirmations.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,11 +133,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68CDDAF524D1F41C0015A754 /* Build configuration list for PBXNativeTarget "Daily Affirmations" */;
 			buildPhases = (
-				27B38DF2BF9152EF53BD9FE7 /* [CP] Check Pods Manifest.lock */,
 				68CDDADA24D1F4180015A754 /* Sources */,
 				68CDDADB24D1F4180015A754 /* Frameworks */,
 				68CDDADC24D1F4180015A754 /* Resources */,
-				620DA50724B3265C6CA59F70 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,48 +193,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		27B38DF2BF9152EF53BD9FE7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Daily Affirmations-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		620DA50724B3265C6CA59F70 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Daily Affirmations/Pods-Daily Affirmations-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Daily Affirmations/Pods-Daily Affirmations-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Daily Affirmations/Pods-Daily Affirmations-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		68CDDADA24D1F4180015A754 /* Sources */ = {
@@ -418,7 +350,6 @@
 		};
 		68CDDAF624D1F41C0015A754 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17AD4C87E69FF98A5A85F2D2 /* Pods-Daily Affirmations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,7 +368,6 @@
 		};
 		68CDDAF724D1F41C0015A754 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9EA9C9A103BBB49150DAFA3 /* Pods-Daily Affirmations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
